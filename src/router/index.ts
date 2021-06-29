@@ -1,23 +1,17 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
+import login from '../views/login.vue';
 import navs from '../views/navs.vue';
 import heightDynamic from '../views/heightDynamic.vue';
 import heightFixed from '../views/heightFixed.vue';
-// {
-//   path: '/',
-//   component: navs,
-// },
-// {
-//   path: '/height-dynamic',
-//   component: heightDynamic,
-// },
-// {
-//   path: '/height-fixed',
-//   component: heightFixed,
-// },
 const routes = [
   {
     path: "/",
+    name: "login",
+    component: login,
+  },
+  {
+    path: "/navs",
     name: "navs",
     component: navs,
   },
