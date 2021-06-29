@@ -13,7 +13,7 @@
       <el-submenu index="1">
         <template #title>
           <i class="el-icon-location"></i>
-          <span>导航一</span>
+          <span>导航一11</span>
         </template>
         <el-menu-item-group>
           <template #title>分组一</template>
